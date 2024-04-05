@@ -1,4 +1,5 @@
-import { ErrorRequestHandler, Request, Response } from 'express'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express'
 
 import { ZodError } from 'zod'
 
@@ -10,7 +11,7 @@ import handleClientError from '../errors/handleClientError'
 import ApiError from '../errors/ApiError'
 import config from '../config'
 
-const ErrorHandler: ErrorRequestHandler = (error, req: Request, res: Response) => {
+const ErrorHandler: ErrorRequestHandler = (error, req: Request, res: Response, next: NextFunction) => {
   config.env === 'development'
     ? console.error('🐱‍🏍 globalErrorHandler ~~', { error })
     : console.error('🐱‍🏍 globalErrorHandler ~~', error)

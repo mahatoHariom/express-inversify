@@ -8,3 +8,37 @@
 2024-04-05 17:48:22:4822 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
 2024-04-05 17:48:59:4859 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
 2024-04-05 17:49:21:4921 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:22:03:223 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:22:05:225 [35mhttp[39m: [35m::1 POST /users 500 1441 - 7.808 ms[39m
+[35m[39m
+2024-04-05 18:22:09:229 [35mhttp[39m: [35m::1 POST /users 500 1441 - 4.696 ms[39m
+[35m[39m
+2024-04-05 18:22:29:2229 [35mhttp[39m: [35m::1 POST /api/users 403 522 - 97.925 ms[39m
+[35m[39m
+2024-04-05 18:22:34:2234 [35mhttp[39m: [35m::1 POST /users 500 1441 - 4.389 ms[39m
+[35m[39m
+2024-04-05 18:23:02:232 [35mhttp[39m: [35m::1 POST /users 500 1441 - 8.651 ms[39m
+[35m[39m
+2024-04-05 18:24:23:2423 [35mhttp[39m: [35m::1 POST /users 500 1441 - 8.343 ms[39m
+[35m[39m
+2024-04-05 18:25:10:2510 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:25:10:2510 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:25:13:2513 [35mhttp[39m: [35m::1 POST /users 500 1441 - 10.947 ms[39m
+[35m[39m
+2024-04-05 18:26:16:2616 [35mhttp[39m: [35m::1 POST /users 500 1441 - 5.648 ms[39m
+[35m[39m
+2024-04-05 18:26:29:2629 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:26:34:2634 [35mhttp[39m: [35m::1 POST /users 500 1441 - 12.050 ms[39m
+[35m[39m
+2024-04-05 18:27:36:2736 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:27:39:2739 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:27:39:2739 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:27:46:2746 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:27:50:2750 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:27:52:2752 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:27:52:2752 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:27:55:2755 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 18:27:57:2757 [35mhttp[39m: [35m::1 POST /users 404 145 - 1.081 ms[39m
+[35m[39m
+2024-04-05 18:28:08:288 [35mhttp[39m: [35m::1 POST /api/users 403 523 - 68.489 ms[39m
+[35m[39m

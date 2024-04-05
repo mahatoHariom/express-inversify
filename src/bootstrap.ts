@@ -9,7 +9,7 @@ import { logger, morganMiddleware } from './config/logger'
 
 export default class App {
   async setup() {
-    const server = new InversifyExpressServer(container)
+    const server = new InversifyExpressServer(container, null, { rootPath: '/api' })
     server
       .setConfig((app) => {
         app.use(express.json())
