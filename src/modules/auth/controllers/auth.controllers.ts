@@ -18,8 +18,10 @@ export class UserController {
     sendResponse<User>(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: " Registration Successful",
+      message: " Registration sdfs",
       data: user,
     });
   }
 }
+
+
