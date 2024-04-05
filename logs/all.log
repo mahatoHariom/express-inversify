@@ -1,0 +1,10 @@
+2024-04-05 17:42:55:4255 [35mhttp[39m: [35m::1 POST /users 403 523 - 82.919 ms[39m
+[35m[39m
+2024-04-05 17:46:45:4645 [35mhttp[39m: [35m::1 POST /users 403 523 - 43.597 ms[39m
+[35m[39m
+2024-04-05 17:48:17:4817 [32minfo[39m: 
+2024-04-05 17:48:19:4819 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 17:48:21:4821 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 17:48:22:4822 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 17:48:59:4859 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-04-05 17:49:21:4921 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m

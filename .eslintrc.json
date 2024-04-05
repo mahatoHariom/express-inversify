@@ -1,0 +1,17 @@
+{
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+      "ecmaVersion": 2021
+    },
+    "rules": {
+      "semi": ["error", "always"], // Enforce semicolons at the end of statements
+      "quotes": ["error", "double"], // Enforce the use of double quotes for strings
+      "indent": ["error", 2], // Enforce 2-space indentation
+      "comma-dangle": ["error", "never"], // Disallow trailing commas in object literals
+      "no-unused-vars": "error", // Disallow unused variables
+      "no-console": "warn", // Disallow the use of console.log and other console methods
+      "no-undef": "error" // Disallow the use of undeclared variables
+    
+    }
+  }
+  
