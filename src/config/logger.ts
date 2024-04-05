@@ -1,5 +1,5 @@
-import winston from 'winston';
-import morgan from 'morgan';
+import winston from 'winston'
+import morgan from 'morgan'
 
 const levels = {
   error: 0,
@@ -7,13 +7,13 @@ const levels = {
   info: 2,
   http: 3,
   debug: 4,
-};
+}
 
 const level = () => {
-  const env = process.env.NODE_ENV || 'development';
-  const isDevelopment = env === 'development';
-  return isDevelopment? 'debug' : 'warn';
-};
+  const env = process.env.NODE_ENV || 'development'
+  const isDevelopment = env === 'development'
+  return isDevelopment ? 'debug' : 'warn'
+}
 
 const colors = {
   error: 'red',
@@ -21,41 +21,41 @@ const colors = {
   info: 'green',
   http: 'magenta',
   debug: 'white',
-};
+}
 
-winston.addColors(colors);
+winston.addColors(colors)
 
 const format = winston.format.combine(
   winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss:ms' }),
   winston.format.colorize({ all: true }),
   winston.format.printf((info) => `${info.timestamp} ${info.level}: ${info.message}`),
-);
+)
 
 const transports = [
   new winston.transports.Console(),
   new winston.transports.File({ filename: 'logs/error.log', level: 'error' }),
   new winston.transports.File({ filename: 'logs/all.log' }),
-];
+]
 
 const logger = winston.createLogger({
   level: level(),
   levels,
   format,
   transports,
-});
+})
 
 const stream = {
   write: (message: string) => logger.http(message),
-};
+}
 
 const skip = () => {
-  const env = process.env.NODE_ENV || 'development';
-  return env!== 'development';
-};
+  const env = process.env.NODE_ENV || 'development'
+  return env !== 'development'
+}
 
-const morganMiddleware = morgan(
-  ':remote-addr :method :url :status :res[content-length] - :response-time ms',
-  { stream, skip }
-);
+const morganMiddleware = morgan(':remote-addr :method :url :status :res[content-length] - :response-time ms', {
+  stream,
+  skip,
+})
 
-export { logger, morganMiddleware };
+export { logger, morganMiddleware }

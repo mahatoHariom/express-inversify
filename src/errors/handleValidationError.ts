@@ -1,47 +1,21 @@
-// import { Prisma } from "@prisma/client";
-// import { iGenericErrorResponse } from "../interfaces/common";
+import { Prisma } from '@prisma/client'
+import { iGenericErrorResponse } from '../@types/common'
 
-// const handleValidationError = (
-//   error: Prisma.PrismaClientValidationError
-// ): iGenericErrorResponse => {
-//   const errors = [
-//     {
-//       path: "",
-//       message: error.message,
-//     },
-//   ];
-//   const statusCode = 400;
-//   return {
-//     statusCode,
-//     message: "Validation Error",
-//     errorMessages: errors,
-//   };
-// };
-
-// export default handleValidationError;
-
-import { Prisma } from "@prisma/client";
-import { iGenericErrorResponse } from "../@types/common";
-import { compareSync } from "bcrypt";
-
-
-const handleValidationError = (
-  error: Prisma.PrismaClientValidationError
-): iGenericErrorResponse => {
-  console.log("SDFsdhari")
+const handleValidationError = (error: Prisma.PrismaClientValidationError): iGenericErrorResponse => {
+  console.log('SDFsdhari')
   const errors = [
     {
-      path: "",
+      path: '',
       message: error.message,
     },
-  ];
-  const statusCode = 400;
+  ]
+  const statusCode = 400
 
   return {
     statusCode,
-    message: "Validation Error",
+    message: 'Validation Error',
     errorMessages: errors,
-  };
-};
+  }
+}
 
-export default handleValidationError;
+export default handleValidationError

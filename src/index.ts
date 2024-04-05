@@ -1,6 +1,6 @@
-import App from "./bootstrap"
+import App from './bootstrap'
 export async function bootstrap() {
-    new App().setup()
-  }
+  new App().setup()
+}
 
-  bootstrap()
+bootstrap()
