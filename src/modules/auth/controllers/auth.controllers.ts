@@ -15,7 +15,6 @@ export class UserController {
     const user = await this.userServices.createUser(userinfo)
     sendResponse<User>(res, {
       statusCode: httpStatus.OK,
-      success: true,
       message: ' Registration sdfs',
       data: user,
     })

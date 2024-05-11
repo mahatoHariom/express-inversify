@@ -20,7 +20,7 @@ export interface iGenericErrorResponse {
 
 export type TApiResponse<T> = {
   statusCode: number
-  success: boolean
+  success?: boolean
   message: string
   meta?: {
     page: number

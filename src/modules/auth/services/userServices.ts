@@ -1,27 +1,26 @@
 import { injectable } from 'inversify'
-import { PrismaClient, User } from '@prisma/client'
+import { User } from '@prisma/client'
 import { CreateUserInput } from '../interfaces/userInterface'
 import ApiError from '../../../errors/ApiError'
 import bcrypt from 'bcrypt'
 import httpStatus from 'http-status'
 import config from '../../../config'
+import { PrismaService } from '../../../config/prisma'
 
 @injectable()
 export class UserServices {
-  constructor(private prisma: PrismaClient) {}
-  createUser = async (data: CreateUserInput): Promise<User> => {
+  constructor(private prisma: PrismaService) {}
+  async createUser(data: CreateUserInput): Promise<User> {
     await this.checkUserExistence(data.email)
-    const hash = await this.hashPassword(data.password)
-    return await this.prisma.user.create({
+    return await this.prisma.client.user.create({
       data: {
         ...data,
-        password: hash,
       },
     })
   }
 
   checkUserExistence = async (email: string) => {
-    const existingUser = await this.prisma.user.findFirst({
+    const existingUser = await this.prisma.client.user.findFirst({
       where: {
         email,
       },

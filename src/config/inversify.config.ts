@@ -1,7 +1,7 @@
 import { Container } from 'inversify'
-import { PrismaClient } from '@prisma/client'
 import { UserServices } from '../modules/auth/services/userServices'
 import { UserController } from '../modules/auth/controllers/auth.controllers'
+import { PrismaService } from './prisma'
 
 const container = new Container({
   defaultScope: 'Singleton',
@@ -9,12 +9,6 @@ const container = new Container({
 
 container.bind<UserServices>(UserServices).toSelf().inSingletonScope()
 container.bind<UserController>(UserController).toSelf().inSingletonScope()
-
-container
-  .bind<PrismaClient>(PrismaClient)
-  .toDynamicValue(() => {
-    return new PrismaClient()
-  })
-  .inSingletonScope()
+container.bind<PrismaService>(PrismaService).toSelf().inSingletonScope()
 
 export default container
