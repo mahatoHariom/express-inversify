@@ -1,22 +1,21 @@
 import { Request, Response } from 'express'
-import { controller, httpPost } from 'inversify-express-utils'
+import { BaseHttpController, controller, httpPost, request, response } from 'inversify-express-utils'
 import { UserServices } from '../services/userServices'
-import sendResponse from '../../../shared/sendReponse'
-import { User } from '@prisma/client'
 import httpStatus from 'http-status'
 import { ZodValidate } from '../../../middleware/ZodValidate'
 import { createUserSchema } from '../../../schemas/userSchema'
+import { CreateUserInput } from '../interfaces/userInterface'
 @controller('/users')
-export class UserController {
-  constructor(private readonly userServices: UserServices) {}
+export class UserController extends BaseHttpController {
+  constructor(private readonly userServices: UserServices) {
+    super()
+  }
+
   @httpPost('/', ZodValidate(createUserSchema))
-  async createUser(req: Request, res: Response) {
-    const { ...userinfo } = req.body
+  async createUser(@request() req: Request, @response() _res: Response) {
+    const userinfo: CreateUserInput = req.body
     const user = await this.userServices.createUser(userinfo)
-    sendResponse<User>(res, {
-      statusCode: httpStatus.OK,
-      message: ' Registration sdfs',
-      data: user,
-    })
+    console.log(_res)
+    return this.json(user, httpStatus.OK)
   }
 }

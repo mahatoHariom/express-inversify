@@ -24,10 +24,12 @@
     "express": "^4.19.2",
     "http-status": "^1.7.4",
     "inversify": "^6.0.2",
+    "inversify-binding-decorators": "^4.0.0",
     "inversify-express-utils": "^6.4.6",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.0",
     "reflect-metadata": "^0.2.2",
+    "swagger-express-ts": "^1.1.0",
     "winston": "^3.13.0",
     "zod": "^3.22.4",
     "zod-express-middleware": "^1.4.0"

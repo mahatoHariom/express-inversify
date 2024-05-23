@@ -142,3 +142,77 @@
 [35m[39m
 2024-05-04 06:46:49:4649 [35mhttp[39m: [35m::1 POST /api/users 200 228 - 16.009 ms[39m
 [35m[39m
+2024-05-18 16:20:33:2033 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:50:42:5042 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:52:01:521 [35mhttp[39m: [35m::1 POST /api/users 200 155 - 96.296 ms[39m
+[35m[39m
+2024-05-22 19:52:32:5232 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:52:34:5234 [35mhttp[39m: [35m::1 POST /api/users 403 485 - 21.178 ms[39m
+[35m[39m
+2024-05-22 19:52:42:5242 [35mhttp[39m: [35m::1 POST /api/users 409 8 - 7.897 ms[39m
+[35m[39m
+2024-05-22 19:52:50:5250 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:52:52:5252 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:52:57:5257 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:53:11:5311 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:53:13:5313 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:53:16:5316 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:53:18:5318 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:53:19:5319 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:53:52:5352 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:53:57:5357 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:53:58:5358 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:54:04:544 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:54:05:545 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:54:09:549 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:54:24:5424 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:54:26:5426 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 19:54:33:5433 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 20:58:38:5838 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:00:16:016 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:00:41:041 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:01:47:147 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:02:14:214 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:02:20:220 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:02:42:242 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:02:45:245 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:02:55:255 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:04:03:43 [35mhttp[39m: [35m::1 POST /api/users 200 159 - 66.758 ms[39m
+[35m[39m
+2024-05-22 21:05:39:539 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:05:43:543 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:05:45:545 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:05:47:547 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:05:50:550 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:05:56:556 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:06:16:616 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:06:19:619 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:08:20:820 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:08:51:851 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:10:22:1022 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:10:58:1058 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:12:25:1225 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:12:28:1228 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-22 21:13:24:1324 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-23 05:40:38:4038 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-23 05:41:10:4110 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-23 05:41:12:4112 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m
+2024-05-23 06:45:28:4528 [35mhttp[39m: [35m::1 POST /auth/register 404 153 - 4.033 ms[39m
+[35m[39m
+2024-05-23 06:45:47:4547 [35mhttp[39m: [35m::1 POST /users 404 145 - 0.493 ms[39m
+[35m[39m
+2024-05-23 06:45:49:4549 [35mhttp[39m: [35m::1 POST /users 404 145 - 0.237 ms[39m
+[35m[39m
+2024-05-23 06:46:14:4614 [35mhttp[39m: [35m::1 POST /api/users 200 173 - 90.896 ms[39m
+[35m[39m
+2024-05-23 06:46:28:4628 [35mhttp[39m: [35m::1 POST /api/users 400 708 - 14.862 ms[39m
+[35m[39m
+2024-05-23 06:46:32:4632 [35mhttp[39m: [35m::1 POST /api/users 400 708 - 4.227 ms[39m
+[35m[39m
+2024-05-23 06:46:37:4637 [35mhttp[39m: [35m::1 POST /api/users 200 183 - 6.582 ms[39m
+[35m[39m
+2024-05-23 06:49:00:490 [35mhttp[39m: [35m::1 POST /api/users 400 707 - 1.684 ms[39m
+[35m[39m
+2024-05-23 06:49:06:496 [35mhttp[39m: [35m::1 POST /api/users 200 172 - 5.716 ms[39m
+[35m[39m
+2024-05-23 07:05:38:538 [32minfo[39m: [32m🚀🚀🚀server is running on http://localhost:9000[39m

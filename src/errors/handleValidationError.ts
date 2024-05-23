@@ -2,7 +2,6 @@ import { Prisma } from '@prisma/client'
 import { iGenericErrorResponse } from '../@types/common'
 
 const handleValidationError = (error: Prisma.PrismaClientValidationError): iGenericErrorResponse => {
-  console.log('SDFsdhari')
   const errors = [
     {
       path: '',
